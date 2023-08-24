@@ -1,0 +1,13 @@
+export("chzInput", 
+	"create_new_data", 
+	"preproc", 
+	"preprocLinkage", 
+	"selVar")
+
+import("tm",
+       "stringr",
+       "syn",
+       "RecordLinkage",
+       "data.table")
+
+importFrom("utils", "head")
