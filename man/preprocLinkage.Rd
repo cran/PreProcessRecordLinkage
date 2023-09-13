@@ -10,7 +10,7 @@ This function records linkage  along with  data preprocessing.  It has been meti
 This approach facilitates seamless data integration and analysis across various datasets.
 }
 \usage{
-preprocLinkage(d1,d2,chz="NULL",var=c("age","sex"),threshold=0.9,res1="res1",res2="res2")
+preprocLinkage(d1,d2,chz="NULL",var=c("age","sex"),threshold=0.9)
 }
 %- maybe also 'usage' for other objects documented here.
 \arguments{
@@ -29,12 +29,7 @@ The vector of the names of the blocked variables that the user chooses based on 
   \item{threshold}{
 A numeric value between 0 and 1. 
 }
-  \item{res1}{
-the output results file name for recode linkage with shared variables.
-}
-  \item{res2}{
-the output results file name for with all variables.
-}
+  
 }
 \details{
 The results are stored in the .csv files, but if the number of records exceeds one million, they are stored in the rdata files.

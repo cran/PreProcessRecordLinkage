@@ -1,8 +1,8 @@
 Package: PreProcessRecordLinkage
 Type: Package
 Title: Preprocessing Record Linkage
-Version: 1.0
-Date: 2023-08-16
+Version: 1.0.1
+Date: 2023-09-12
 Authors@R: c(
       person(given = "Hossein",
         family = "Hassani",
@@ -21,12 +21,12 @@ Description: In this record linkage package, data preprocessing has been meticul
   have the flexibility to modify variable names, the system intelligently ensures that 
   changes are only permitted when they do not compromise data consistency or essential variable essence.
 License: GPL-3
-Depends: tm, syn, RecordLinkage
-Imports: stringr, data.table
+Depends: tm, syn, RecordLinkage, data.table
+Imports: stringr
 Maintainer: Leila Marvian Mashhad <Leila.marveian@gmail.com>
 NeedsCompilation: no
-Packaged: 2023-08-24 09:43:03 UTC; ne_da
+Packaged: 2023-09-12 20:40:49 UTC; ne_da
 Author: Hossein Hassani [aut],
   Leila Marvian Mashhad [aut, cre]
 Repository: CRAN
-Date/Publication: 2023-08-24 11:00:17 UTC
+Date/Publication: 2023-09-13 09:10:02 UTC

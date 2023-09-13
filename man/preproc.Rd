@@ -1,5 +1,6 @@
 \name{preproc}
 \alias{preproc}
+\alias{print.explain}
 %- Also NEED an '\alias' for EACH other topic documented here.
 \title{
 Preprocessing and Unification of Variable Names of Two Input Data Sets
@@ -9,6 +10,7 @@ In this function data preprocessing has been meticulously executed to cover a wi
 }
 \usage{
 preproc(d1, d2)
+\method{print}{explain}(x,...)
 }
 %- maybe also 'usage' for other objects documented here.
 \arguments{
@@ -18,6 +20,10 @@ A data frame.
   \item{d2}{
 A data frame.
 }
+\item{x}{
+an object of class \code{'eplain'}.
+  }
+\item{\dots}{further arguments passed to preproc function.}
 }
 \details{
 Because we want users to be able to change their names. The output of this function gives the names and classes that have changed in the new version and the previous version, as well as the number of changes in both datasets. Returns the corresponding number for the \code{chz} argument in the \code{chzInput} function.
